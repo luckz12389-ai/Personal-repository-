@@ -144,6 +144,8 @@ local FILES = {
 	notif = "universfield-new-notification-051-494246.mp3",
 	banner1 = "IMG_7ab5e5dc-64e5-487e-915a-7fe5d70b5955.jpg",
 	banner2 = "IMG_60cd6860-c2b8-4e1c-a689-961abcb2fb51.jpg",
+	banner3 = "banner3.jpg",   -- Backdoor (adicione)
+	banner4 = "banner4.jpg",   -- Rooms (adicione)
 	logo = "lua_sem_fundo.png",
 	tests = TESTS_ICON_FILE,
 }
@@ -154,7 +156,7 @@ local ICON_LIST = {
 }
 for _, n in ipairs(ICON_LIST) do FILES[n] = n .. ".png" end
 
-local ORDER = { "logo", "banner1", "banner2", "notif", "home", "speed", "visual", "player", "door", "teleport", "misc", "tests", "settings", "esp", "rejoin", "copy", "reset" }
+local ORDER = { "logo", "banner1", "banner2", "banner3", "banner4", "notif", "home", "speed", "visual", "player", "door", "teleport", "misc", "tests", "settings", "esp", "rejoin", "copy", "reset" }
 do
 	local have = {}
 	for _, k in ipairs(ORDER) do have[k] = true end
